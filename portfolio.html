@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="styles.css">
     <script async src="https://www.tiktok.com/embed.js"></script>
     <script async src="//www.instagram.com/embed.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="Images/site.webmanifest">
+    <link rel="mask-icon" href="Images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="Images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
         <h1>Faith Kierzek</h1>
-        <a href="index.html"><img src="Images/fk-logo.svg" alt="Faith Kierzek logo"></a>       
-        <nav>
-            <a href="portfolio.html">PROJECTS</a>
-            <a href="work-experience.html">WORK EXPERIENCE</a>
-            <a href="education.html">EDUCATION</a>
-            <a href="#contact">CONTACT</a>
+        <a href="index.html"><img src="Images/fk-logo.svg" alt="Faith Kierzek logo" class="header-logo"></a>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <br>
+            <hr>
+        </div>
+        <nav class="toggle-nav">
+            <a href="portfolio.html"><strong>PROJECTS</strong></a>
+            <a href="work-experience.html"><strong>WORK EXPERIENCE</strong></a>
+            <a href="education.html"><strong>EDUCATION</strong></a>
+            <a href="#contact"><strong>CONTACT</strong></a>
         </nav>
     </header>
     <main>

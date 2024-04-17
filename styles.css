@@ -4,6 +4,14 @@ body{
     color: #1b3f60;
     background-color: #fff;
 }
+header{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 h1{
     display: none;
 }
@@ -11,27 +19,48 @@ h1{
     width: 1.5in;
     max-width: 100%;
 }
-nav>a{
+nav.toggle-nav>a{
     color: #1b3f60;
     text-decoration: none;
-    padding: 1rem 1rem;
 }
-nav>ul{
+nav.toggle-nav{
+    position: absolute;
+    right: 0;
+    display: none;
+}
+nav.toggle-nav>a:hover{
+    color:#1b3f60;
+    text-decoration: underline;
+}
+nav.toggle-nav>ul{
     list-style-type: none;
     padding: 0;
 }
-nav>li{
+nav.toggle-nav>li{
     display: block;
     width: 100%;
     text-align: center;
 }
-nav>a{
+nav.toggle-nav>a{
     display: block;
-    padding: 10px;
+    padding: 5px;
+    position: relative;
+    top: 80px;
+    right: 70px;
 }
 .hamburger{
     width: 3rem;
 }
-hr{
-    text-decoration: solid;
+.hamburger hr{
+    height: .2rem;
+    background-color: #1b3f60;
+    position: relative;
+    top: 25px;
+}
+nav.toggle-nav.show{
+    display: block;
+}
+.blue-block hr{
+    height: 8rem;
+    background-color: #1b3f60;
 }
