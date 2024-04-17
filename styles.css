@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1b3f60;
+    background-color: #fff;
+}
+h1{
+    display: none;
+}
+.header-logo{
+    width: 1.5in;
+    max-width: 100%;
+}
+nav>a{
+    color: #1b3f60;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+nav>ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav>li{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+nav>a{
+    display: block;
+    padding: 10px;
+}
+.hamburger{
+    width: 3rem;
+}
+hr{
+    text-decoration: solid;
+}
