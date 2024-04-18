@@ -51,6 +51,7 @@ nav.toggle-nav>a{
 .hamburger{
     width: 3rem;
 }
+<<<<<<< Updated upstream
 .hamburger hr{
     height: .2rem;
     background-color: #1b3f60;
@@ -63,4 +64,8 @@ nav.toggle-nav.show{
 .blue-block hr{
     height: 8rem;
     background-color: #1b3f60;
+=======
+hr{
+    
+>>>>>>> Stashed changes
 }
