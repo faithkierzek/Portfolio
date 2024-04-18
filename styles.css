@@ -51,7 +51,6 @@ nav.toggle-nav>a{
 .hamburger{
     width: 3rem;
 }
-<<<<<<< Updated upstream
 .hamburger hr{
     height: .2rem;
     background-color: #1b3f60;
@@ -64,8 +63,28 @@ nav.toggle-nav.show{
 .blue-block hr{
     height: 8rem;
     background-color: #1b3f60;
-=======
-hr{
-    
->>>>>>> Stashed changes
+}
+h2{
+    color: black;
+    margin: 2rem;
+    text-align: center;
+}
+nav.view-portfolio{
+    display: flex;
+    justify-content: center;
+}
+nav.view-portfolio a{
+    background-color: #1b3f60;
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem 2rem;
+}
+nav.view-portfolio a:hover{
+    color: #b1d4e1;
+}
+.about-me h3{
+    margin: 1rem 2rem;
+}
+.about-me p{
+    margin: 1rem 3rem;
 }
