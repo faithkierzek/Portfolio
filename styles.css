@@ -55,7 +55,7 @@ nav.toggle-nav>a{
     height: .2rem;
     background-color: #1b3f60;
     position: relative;
-    top: 25px;
+    top: 40px;
 }
 nav.toggle-nav.show{
     display: block;
@@ -80,11 +80,142 @@ nav.view-portfolio a{
     padding: 2rem 2rem;
 }
 nav.view-portfolio a:hover{
-    color: #b1d4e1;
+    color: #b1d4e0;
 }
 .about-me h3{
     margin: 1rem 2rem;
 }
 .about-me p{
-    margin: 1rem 3rem;
+    margin: 1rem 2.25rem;
+}
+.about-me img{
+    max-width: 100%;
+    width: 23rem;
+}
+.about-me img{
+    display: block; 
+    margin: auto;
+    padding: 20px;
+}
+.home-nav{
+    background-color: #b1d4e1;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+.home-nav img{
+    max-width: 100%;
+    height: auto;
+    width: 23rem;
+    display: block;
+    margin: 0 auto;
+}
+.home-nav nav{
+    text-align: center;
+}
+.home-nav a{
+    color: #1b3f60;
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+}
+.transition-a{
+    transition: transform 0.2s ease;
+}
+.transition-a:hover{
+    color: #0e2133;
+    transform: scale(1.1);
+}
+.footer{
+    background-color: #0b1320;
+    color: #b1d4e0;
+    padding: 50px;
+}
+.footer img{
+    max-width: 100%;
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+.footer h4{
+    font-size: 20px;
+    text-align: center;
+}
+.footer p{
+    font-size: 12px;
+    text-align: center;
+    margin: none;
+}
+.photo{
+    background-color: #0b1320;
+    color: #b1d4e0;
+    margin: 30px;
+    justify-items: center;
+}
+.photo{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.photo img{
+    max-width: 100%;
+    width: 85%;
+    max-height: auto;
+    display: block;
+}
+.photo h3{
+    font-size: 20px;
+}
+.video{
+    background-color: #1b3f60;
+    color: #b1d4e0;
+    margin: 30px;
+    justify-items: center;
+}
+.video{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+.video iframe{
+    max-width: 100%;
+    width: 85%;
+    display: block;
+}
+.video blockquote{
+    max-width: 100%;
+    width: 65%;
+    display: block;
+}
+.video h3{
+    font-size: 20px;
+}
+.other-projects{
+    background-color: #b1d4e0;
+    margin: 30px;
+    justify-items: center;
+}
+.other-projects h3{
+    font-size: 20px;
+    color: #0b1320;
+    text-align: justify;
+}
+#giveaway, #influencer, #snapchat, #moodboard, #rebrand{
+    background-color: #0b1320;
+    color: #b1d4e0;
+    margin: 35px;
+}
+.other-projects p{
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+.other-projects a{
+    color: #b1d4e0;
+    text-align: center;
+}
+.other-projects img{
+    max-width: 100%;
+    width: 85%;
 }
