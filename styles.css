@@ -199,23 +199,78 @@ nav.view-portfolio a:hover{
 .other-projects h3{
     font-size: 20px;
     color: #0b1320;
-    text-align: justify;
+    text-align: center;
+    padding: 15px;
 }
 #giveaway, #influencer, #snapchat, #moodboard, #rebrand{
     background-color: #0b1320;
     color: #b1d4e0;
     margin: 35px;
+    justify-content: center;
+    padding: 2rem;
 }
 .other-projects p{
     color: #fff;
     text-align: center;
     font-size: 13px;
+    font-weight: 100;
 }
 .other-projects a{
     color: #b1d4e0;
-    text-align: center;
+    justify-content: center;
 }
 .other-projects img{
     max-width: 100%;
     width: 85%;
+}
+.other-projects h4{
+    text-align: center;
+    font-size: 18px;
+}
+span{
+    font-size: 50px;
+    font-weight: lighter;
+    display: inline-block;
+    transform: rotate(180deg);
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+}
+#portfolio-photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.experience{
+    padding: 0 2rem;
+}
+.favorite-projects{
+    background-color: #0b1320;
+    margin: 2rem 3rem;
+    color: #b1d4e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.favorite-projects a{
+    background-color: #afc1d0;
+    color: #1b3f60;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    width: 225px;
+    text-align: center;
+}
+.favorite-projects a:hover{
+    background-color: #b1d4e0;
+    text-decoration: underline;
+}
+.software{
+    background-color: #1b3f60;
+    color: #fff;
 }
