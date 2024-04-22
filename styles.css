@@ -256,6 +256,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem 1rem;
 }
 .favorite-projects a{
     background-color: #afc1d0;
@@ -270,7 +271,65 @@ span{
     background-color: #b1d4e0;
     text-decoration: underline;
 }
+.favorite-projects h3{
+    text-align: center;
+}
 .software{
     background-color: #1b3f60;
     color: #fff;
+    padding: 2rem 4rem 2rem 7rem;
 }
+.software h3{
+    color: #b1d4e0;
+    font-size: 20px;
+    text-align: center;
+}
+.software{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+.education{
+    margin: 0 3rem 4rem;
+}
+.education p, li{
+    color: black;
+    font-size: 13px;
+}
+.black{
+    color: black;
+}
+@media (min-width:900px){
+    header{
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-logo{
+        width: 2in;
+        max-width: 100%;
+    }
+    .hamburger{
+        display: none;
+    }
+    nav.toggle-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 160px;
+        margin-top: 80px;
+        font-size: 20px;
+        right: auto;
+    }
+    nav.toggle-nav a{
+        margin: 0 20px;
+    }
+    .about-me{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
