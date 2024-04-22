@@ -151,12 +151,14 @@ nav.view-portfolio a:hover{
     background-color: #0b1320;
     color: #b1d4e0;
     margin: 30px;
-    justify-items: center;
 }
-.photo{
+.photography{
     display: grid;
     grid-template-rows: auto;
+    place-items: center;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .photo img{
     max-width: 100%;
@@ -165,7 +167,9 @@ nav.view-portfolio a:hover{
     display: block;
 }
 .photo h3{
+    padding: 1rem;
     font-size: 20px;
+    text-align: center;
 }
 .video{
     background-color: #1b3f60;
@@ -370,15 +374,60 @@ span{
         width: 700px;
         margin: 0 auto;
     }
+    .experience li{
+        font-size: 16px;
+    }
     .favorite-projects{
         width: 600px;
         padding: 2rem 1rem;
     }
     .favorite-projects{
-        margin: 4rem auto;
+        margin: 2.5rem auto;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .software h3{
+        font-size: 22px;
+        margin: 2rem auto;
+    }
+    .software p{
+        margin: 0 250px;
+    }
+    .software li{
+        margin: 0 300px;
+    }
+    .education{
+        margin: 0 6rem 2rem 6rem;
+    }
+    .education p{
+        font-size: 16px;
+    }
+    .education li{
+        font-size: 15px;
+    }
+    .photo{
+        margin: 30px 100px;
+        justify-items: center;
+        display: block;
+    }
+    .photo h3{
+        margin: 2rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    .photography{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto auto;
+        gap: 10px;
+    }
+    .large{
+        grid-column: span 2;
+    }
+    .photography{
+        max-width: 100%;
+        height: auto;
     }
 }
 
