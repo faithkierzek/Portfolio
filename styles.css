@@ -291,6 +291,9 @@ span{
     align-items: flex-start;
     height: 100%;
 }
+.software li{
+    color: #fff;
+}
 .education{
     margin: 0 3rem 4rem;
 }
@@ -328,8 +331,54 @@ span{
         margin: 0 20px;
     }
     .about-me{
+        margin: 2rem 1rem;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 50px 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me h3{
+        grid-column: 1;
+    }
+    .about-me p{
+        grid-column: 1;
+        font-size: 17px;
+    }
+    .about-me img{
+        grid-column: 2;
+        grid-row: 1/3;
+        margin-right: 20px;
+    }
+    .home-nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        padding: 50px;
+
+    }
+    .home-nav img{
+        max-width: 100%;
+        height: auto;
+        width: 16rem;
+        display: block;
+        margin: 0 auto;
+    }
+    .experience{
+        padding: 0 5rem;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .favorite-projects{
+        width: 600px;
+        padding: 2rem 1rem;
+    }
+    .favorite-projects{
+        margin: 4rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
