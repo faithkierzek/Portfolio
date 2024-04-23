@@ -334,6 +334,9 @@ span{
     nav.toggle-nav a{
         margin: 0 20px;
     }
+    h2{
+        font-size: 32px;
+    }
     .about-me{
         margin: 2rem 1rem;
         display: grid;
@@ -407,27 +410,102 @@ span{
         font-size: 15px;
     }
     .photo{
-        margin: 30px 100px;
-        justify-items: center;
-        display: block;
+        margin: 0 4rem;
+        padding: 0 2rem 3rem 2rem;
+    }
+    .photo{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        grid-auto-flow:dense;
+    }
+    .photo img{
+        display: flex;
+        width: auto;
+        height: auto;
+        max-height: 100%;
     }
     .photo h3{
-        margin: 2rem;
-        padding: 2rem;
+        font-size: 28px;
+    }
+    .photo h3{
+        grid-column-start: 1;   
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .large-1{
+        grid-column-start: 1;   
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    .large-2{
+        grid-column-start: 4;   
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    .second-row-1{
+        grid-column-start: 1;   
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .second-row-2{
+        grid-column-start: 3;   
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .second-row-3{
+        grid-column-start: 5;   
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .third-row-1{
+        grid-column-start: 1;   
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .third-row-2{
+        grid-column-start: 3;   
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .third-row-3{
+        grid-column-start: 5;   
+        grid-column-end: 7;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .video{
+        margin: 2rem 4rem;
+        display: block;
+    }
+    .video iframe{
+        width: auto;
+        height: auto;
+        max-height: 100%;
+    }
+    .video blockquote{ 
+        width: 85%;
+        height: auto;
+        max-height: 100%;
+        max-width: 40%;
+    }
+    .video h3{
+        font-size: 32px;
+        padding: 1rem;
         text-align: center;
     }
-    .photography{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto auto auto;
-        gap: 10px;
-    }
-    .large{
-        grid-column: span 2;
-    }
-    .photography{
-        max-width: 100%;
-        height: auto;
+    .video iframe{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
