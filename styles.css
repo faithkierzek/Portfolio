@@ -333,6 +333,7 @@ span{
     }
     nav.toggle-nav{
         display: flex;
+        /*Just need to add position:static; to move the nav back into the header.*/
         justify-content: center;
         align-items: center;
         margin-left: 160px;
